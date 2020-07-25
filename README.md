@@ -1,6 +1,5 @@
-
 # Snooker világranglista 
-## Programozás vizsgafeladat
+## Programozás vizsgafeladat és megoldás Python nyelven.
 
 A snooker játékban különböző szempontok szerint világranglistákat vezetnek. Ebben a
 feladatban egy programot kell készítenie, melyben a 2019. 10. 20-án aktuális pénzdíjas
