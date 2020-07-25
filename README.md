@@ -28,10 +28,11 @@ A snooker . txt UTF-8 kódolású forrásállomány soraiban a következő adato
 ```
 Helyezes;Nev; Orszag; Nyeremeny
 52;Akani Sunny;Thaiföld;118500
-T;Allen Mark;Észak-Írország; 681000
+7;Allen Mark;Észak-Írország; 681000
 72;Anda Zhang;Kína;44750
 76;Astley John;Anglia;40000
 73;Baird Sam;Anglia;44750
+.......
 ```
 Az állomány sorai a versenyzők neve szerinti ábécérendben tárolja a versenyző helyezését a
 ranglistán, nevét, országát és az elmúlt időszakban elnyert pénzdíjak összegét angol fontban.
@@ -75,8 +76,8 @@ Minta kimenet:
         Nyeremény összege: 108 300 000 Ft
 6. feladat: A versenyzők között van norvég versenyző.
 7. feladat: Statisztika
-    Kína - 29 fő
-    Anglia - 47 fő
-    Wales - 10 fő
-    Skócia - 6 fő
+        Kína - 29 fő
+        Anglia - 47 fő
+        Wales - 10 fő
+        Skócia - 6 fő
 ```
