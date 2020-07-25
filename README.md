@@ -25,14 +25,14 @@ megfelelnek.
 adatok mellett is helyes eredményt adjon!
 
 A snooker . txt UTF-8 kódolású forrásállomány soraiban a következő adatokat találja:
-
+```
 Helyezes;Nev; Orszag; Nyeremeny
 52;Akani Sunny;Thaiföld;118500
 T;Allen Mark;Észak-Írország; 681000
 72;Anda Zhang;Kína;44750
 76;Astley John;Anglia;40000
 73;Baird Sam;Anglia;44750
-
+```
 Az állomány sorai a versenyzők neve szerinti ábécérendben tárolja a versenyző helyezését a
 ranglistán, nevét, országát és az elmúlt időszakban elnyert pénzdíjak összegét angol fontban.
 Az állomány első sora az adatok fejlécét tartalmazza. Az adatokat pontosvesszővel
@@ -65,7 +65,7 @@ azok az országok jelenjenek meg a minta szerint, amelyekből több mint négy
 versenyző szerepel a világranglistán!
 
 Minta kimenet:
-
+```
 3. feladat: A világranglistán 100 versenyző szerepel
 4. feladat: A versenyzők átlagosan 183373,50 fontot kerestek
 5. feladat: A legjobban kereső kínai versenyző:
@@ -79,3 +79,4 @@ Minta kimenet:
     Anglia - 47 fő
     Wales - 10 fő
     Skócia - 6 fő
+```
