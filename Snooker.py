@@ -26,7 +26,7 @@ f.close()
 
 with open('snooker.txt', encoding='latin2') as f:
     fejléc = f.readline()
-    lista = [ sor.strip().split(';')) for sor in f ]
+    lista = [ sor.strip().split(';') for sor in f ]
 
 #================================ 3. feladat ============================================
 
@@ -144,6 +144,6 @@ for sor in lista:
     ország = sor[2]
     statisztika[ország] = statisztika.get(ország, 0) + 1
 
- x = [ print(f'     {ország} - {versenyző} fő') for ország, versenyző in statisztika.items() if versenyző > 4 ]
+x = [ print(f'     {ország} - {versenyző} fő') for ország, versenyző in statisztika.items() if versenyző > 4 ]
 
 #============================================================================================================

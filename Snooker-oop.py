@@ -103,17 +103,14 @@ minta:
 
 kínaiak = [ ( sor.nyeremény, sor) for sor in lista if sor.ország =='Kína']
 nyeremény, adatok = max(kínaiak)
-print(f'''
-**5. feladat: A legjobban kereső kínai versenyző:
+print(f'''5. feladat: A legjobban kereső kínai versenyző:
         Helyezés: {adatok.helyezés}
         Név: {adatok.név}
         Ország: {adatok.ország}
-        Nyeremény összege: {adatok.nyeremény * 380} Ft
-''')
+        Nyeremény összege: {adatok.nyeremény * 380} Ft''')
 
 '''
 6. Határozza meg, hogy a világranglistán található-e norvég játékos!
-6. feladat: A versenyzők között van norvég versenyző.
 '''
 norvég = [sor for sor in lista if sor.ország == 'Norvégia']
 if len(norvég) > 0:
@@ -136,5 +133,5 @@ print(      f'7. feladat: Statisztika')
 for sor in lista:
     ország = sor.ország
     statisztika[ország] = statisztika.get(ország, 0) + 1
-x = [ print(f'     {ország} - {versenyző} fő') for ország, versenyző in statisztika.items() if versenyző > 4]
+x = [ print(f'        {ország} - {versenyző} fő') for ország, versenyző in statisztika.items() if versenyző > 4]
 

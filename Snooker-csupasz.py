@@ -18,12 +18,11 @@ print(f'4. feladat: A versenyzők átlagosan {átlag:.2f} fontot kerestek')
 kínaiak = [ (int(sor[3]), sor) for sor in lista if sor[2] =='Kína']
 helyezés, név, ország, ny = max(kínaiak)[1]
 nyeremény = int(ny) * 380
-print(f'''
-5. feladat: A legjobban kereső kínai versenyző:
-        Helyezés: {helyezés}
-        Név: {név}
-        Ország: {ország}
-        Nyeremény összege: {nyeremény} Ft ''')
+print(f'''5. feladat: A legjobban kereső kínai versenyző:
+                  Helyezés: {helyezés}
+                  Név: {név}
+                  Ország: {ország}
+                  Nyeremény összege: {nyeremény} Ft ''')
 
 # 6. ________________________________________________________________________
 
