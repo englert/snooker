@@ -23,7 +23,7 @@ megfelelnek.
 6. A megoldását úgy készítse el, hogy az azonos szerkezetű, de tetszőleges bemeneti
 adatok mellett is helyes eredményt adjon!
 
-A snooker . txt UTF-8 kódolású forrásállomány soraiban a következő adatokat találja:
+A snooker.txt (UTF-8 vagy latin2) kódolású forrásállomány soraiban a következő adatokat találja:
 ```
 Helyezes;Nev; Orszag; Nyeremeny
 52;Akani Sunny;Thaiföld;118500
@@ -33,38 +33,25 @@ Helyezes;Nev; Orszag; Nyeremeny
 73;Baird Sam;Anglia;44750
 .......
 ```
-Az állomány sorai a versenyzők neve szerinti ábécérendben tárolja a versenyző helyezését a
-ranglistán, nevét, országát és az elmúlt időszakban elnyert pénzdíjak összegét angol fontban.
-Az állomány első sora az adatok fejlécét tartalmazza. Az adatokat pontosvesszővel
-választottuk el.
+Az állomány sorai a versenyzők neve szerinti ábécérendben tárolja a versenyző helyezését a ranglistán, nevét, országát és az elmúlt időszakban elnyert pénzdíjak összegét angol fontban. Az állomány első sora az adatok fejlécét tartalmazza. Az adatokat pontosvesszővel választottuk el.
 
-1. Készítsen konzolalkalmazást (projektet) a következő feladatok megoldásához,
-amelynek forráskódját Snooker néven mentse el!
+1. Készítsen konzolalkalmazást (projektet) a következő feladatok megoldásához,amelynek forráskódját Snooker néven mentse el!
 
-2. Olvassa be a snooker.txt állomány sorait és tárolja az adatokat egy olyan
-összetett adatszerkezetben (pl. vektor, lista stb.), amely használatával a további
-feladatok megoldhatók! Ügyeljen arra, hogy az állomány első sora a mezőneveket
-tartalmazza!
+2. Olvassa be a snooker.txt állomány sorait és tárolja az adatokat egy olyan összetett adatszerkezetben (pl. vektor, lista stb.), amely használatával a további
+feladatok megoldhatók! Ügyeljen arra, hogy az állomány első sora a mezőneveket tartalmazza!
 
-3. Határozza meg és írja ki a képernyőre a minta szerint, hogy hány versenyző szerepel a
-világranglistán!
+3. Határozza meg és írja ki a képernyőre a minta szerint, hogy hány versenyző szerepel a világranglistán!
 
-4. Határozza meg, hogy a ranglistán szereplő versenyzők átlagosan mekkora bevételre
-tettek szert az elmúlt időszakban! Az eredményt két tizedesjegyre kerekítve jelenítse
-meg a minta szerint!
+4. Határozza meg, hogy a ranglistán szereplő versenyzők átlagosan mekkora bevételre tettek szert az elmúlt időszakban! Az eredményt két tizedesjegyre kerekítve jelenítse meg a minta szerint!
 
-5. Határozza meg és írja ki a képernyőre a minta szerint a legjobban kereső kínai játékos
-adatait! Feltételezheti, hogy legalább egy kínai versenyző volt, és nem alakult ki
-holtverseny közöttük. A nyeremény összegét forintba jelenítse meg! Az átszámoláshoz
-380 Ft-os angol font árfolyammal dolgozzon!
+5. Határozza meg és írja ki a képernyőre a minta szerint a legjobban kereső kínai játékos adatait! Feltételezheti, hogy legalább egy kínai versenyző volt, és nem alakult ki holtverseny közöttük. A nyeremény összegét forintba jelenítse meg! Az átszámoláshoz 380 Ft-os angol font árfolyammal dolgozzon!
 
 6. Határozza meg, hogy a világranglistán található-e norvég játékos!
 
-7. Készítsen statisztikát országok szerinti csoportosításban a versenyzők számáról! Csak
-azok az országok jelenjenek meg a minta szerint, amelyekből több mint négy
-versenyző szerepel a világranglistán!
+7. Készítsen statisztikát országok szerinti csoportosításban a versenyzők számáról! Csak azok az országok jelenjenek meg a minta szerint, amelyekből több mint négy
+versenyző szerepel a világranglistán! 
 
-Minta kimenet:
+8. Minta kimenet:
 ```
 3. feladat: A világranglistán 100 versenyző szerepel
 4. feladat: A versenyzők átlagosan 183373,50 fontot kerestek
